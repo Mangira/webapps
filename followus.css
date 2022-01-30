@@ -1,0 +1,39 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;  
+  min-height:900px;
+  background:url('gun.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+  
+  overflow-y:hidden;
+  }
+
+
+#titulo{
+				background:#000000;
+				margin-top:0px;
+				padding:25px 0px 25px 0px;
+}
+
+
+#lh{
+		    
+				background:#510d9b;
+				margin:10px 10px 0px 10px;
+				
+				padding:8px 0px 8px 0px;
+				
+				
+}
+
+
+#space{
+				
+				margin:0px 0px 80px 0px;
+}
+
+
