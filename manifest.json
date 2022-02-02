@@ -1,0 +1,20 @@
+{
+"name": "Webapps",
+"description": "Find the best apps",
+"version": "1.0",
+"icons": {
+"128": "icon.jpeg"
+},
+"app": {
+"urls": [
+"https://mangira.github.io/webapps/"
+],
+"launch": {
+"web_url": "https://mangira.github.io/webapps/"
+}
+},
+"permissions": [
+"unlimitedStorage",
+"notifications"
+]
+}
