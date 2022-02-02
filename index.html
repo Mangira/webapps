@@ -8,7 +8,7 @@
 				<title>Webapps:Find the best app</title>
 				
 				<link rel="stylesheet" href="style.css">
-    
+                                <link rel="manifest" href="manifest.json">
 		
 		
 		
@@ -454,7 +454,11 @@
 </html>
 		
 		<script type="text/javascript" src="javascript.js"></script>
-
+                <script>
+if ('serviceWorker' in navigator) {
+navigator.serviceWorker.register('generate-sw.js');
+}
+</script>
 </body><br>
 
 
